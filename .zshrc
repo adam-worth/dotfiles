@@ -120,3 +120,4 @@ fi
 echo "syntax on" >> ~/.vimrc
 
 
+export GPG_TTY=$(tty)
