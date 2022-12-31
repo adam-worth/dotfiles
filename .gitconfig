@@ -1,0 +1,10 @@
+[user]
+    name = Jordan Beres
+    email = jordan.beres@protonmail.com
+    signingkey = jordan.beres@protonmail.com
+
+[gpg]
+    program = /opt/homebrew/bin/gpg
+
+[commit]
+    gpgsign=true
