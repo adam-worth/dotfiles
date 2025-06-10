@@ -107,6 +107,9 @@ alias k="kubectl"
 alias d="docker"
 alias vim="nvim"
 alias c="clear"
+alias wake="caffeinate -d"
+alias srch="grep -rnw . -e $1"
+alias wh="function _wh() { cd ~/projects/'$1'; };_wh '$@'"
 
 export EDITOR="nvim"
 
